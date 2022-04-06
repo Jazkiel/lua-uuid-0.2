@@ -19,7 +19,7 @@ build = {
   type = "builtin",
   modules = {
     ["lua_uuid"] = {
-      sources = { "lua_uuid.c" },
+      sources = { "lua-uuid-0.2/lua_uuid.c" },
       libraries = { "uuid" }
     }
   }
